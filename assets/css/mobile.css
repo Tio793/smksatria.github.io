@@ -1,0 +1,156 @@
+#topbar {
+    display: none;
+}
+
+/* css slider hero area */
+
+#hero-area{
+    position: relative;
+}
+
+#slider-hero-nav .owl-prev,#slider-hero-nav .owl-next{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    /* transform: translateX(-50%); */
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+#slider-hero-nav .owl-prev{
+    left: 0;
+    border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next{
+    right: 0;
+    border-radius:50px 0 0 50px ;
+}
+
+#slider-hero-nav .owl-prev:hover,#slider-hero-nav .owl-next:hover{
+    cursor: pointer;
+}
+
+#hero-area .slider-item-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    text-align: center;
+    border: none;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+
+#hero-area .slider-item-content h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#hero-area .slider-item-content p{
+    font-size: 10px;
+}
+
+.slider-item-img img{
+    height: 400px;
+    object-fit: cover;
+}
+
+/* sambutan */
+
+.video-wrapper .frame{
+    width: 370px;
+    height: 200px;
+}
+
+/* tenaga pendidik */
+
+.owl-item{
+    /* padding: 20px 10px; */
+    background-color: white;
+}
+
+.section-item-slider{
+    height: 300px;
+    position: relative;
+}
+
+.section-item-slider img{
+
+}
+
+#tenaga-pendidik .foto-guru{
+    height: 100%;
+    object-fit: cover;
+    transform: scale(0.8);
+}
+
+.section-item-caption{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 10px 15px;
+}
+
+.section-item-caption h5{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section-item-caption h6{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#tenaga-pendidik .section-body{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* alumni */
+
+#alumni .section-item-content p{
+    font-size: 8px;
+    line-height: 10px;
+}
+
+#alumni .section-item-content h3{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#alumni .section-item-content .more{
+    font-size: 12px;
+}
+
+/* Galeri */
+
+.frame1{
+    width: 170px;
+    height: 200px;
+}
+
+.section-item-slider img{
+    height: 70%;
+    object-fit: cover;
+}
+
+
+/* Berita */
+
+#berita .section-body .col-md-4{
+    margin-bottom: 25px;
+}
+
+/* footer */
+
+footer .footer-col h2{
+    margin-top: 15px;
+}
